@@ -1,0 +1,282 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* *{
+    margin: 40px 0px 0px 0px;
+    padding: 0;
+} */
+#bangla{
+position: static;
+width: 1100px;
+height: 560px;
+border-radius: 24px;
+background: rgb(198, 228, 214);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 64;
+padding: 80px 100px 80px 100px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 80px 0px;
+}
+.vision{
+width: 622px;
+height: 326px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 0;
+padding: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-bottom: 100px;
+}
+.vision h5{
+    color: rgba(14,14,14,0.5);
+    font-family: Fira Sans;
+     font-size: 24px; 
+    font-weight: 5px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision h1{
+    width: 100%;
+    height: 201px;
+    color: rgb(14,14,14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 4px;
+}
+.banbtn{
+    width: 270px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgb(0,106,80);
+    color: rgb(255,255,255);
+    font-family: Fire Sans;
+    font-weight: 600px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    padding: 13px;
+    text-align: center;
+    border: none;
+}
+.banbtn:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.future{
+width: 1280px;
+height: 480px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.aims{
+width: 1280px;
+height: 120px;
+margin: 18px; 
+}
+.aims h1{
+width: 1280px;
+height: 32px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: left;
+}
+.aims p{
+width: 1280px;
+height: 48px;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.aim-image{
+width: 1280px;
+height: 420px;
+margin: 18px;
+}
+
+.aim-image{
+    display: flex;
+    justify-content: space-around;
+
+}
+.card-icon{
+width: 410.67px;
+height: 300px;
+box-sizing: border-box;
+border-radius: 16px;
+padding: 24px;
+background: rgba(84, 144, 245, 0.2);
+}
+.card-icon img{
+    width: 49px;
+    height: 53px;
+    background: rgb(129, 180, 252);
+}
+.card-icon h1{
+width: 100%;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.card-icon p{
+width: 100%;
+height: 72px;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.cbtn{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    border: none;
+    color: white;
+}
+.cbtn:hover{
+    background-color: gray;
+}
+.cbtns{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background-color: #09A15C;
+    border: none;
+    color: white;
+}
+.cbtns:hover{
+    background-color: gray;
+}
+
+.cbtne{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background-color: #09A15C;
+    border: none;
+    color: white;
+}
+.cbtne:hover{
+    background-color: gray;
+}
+.news{
+    width: 1280px;
+    height: 120px;
+
+}
+.news h1{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.news p{
+width: 1280px;
+height: 48px;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.satelite{
+width: 1280px;
+height: 402px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding-left: 18px;
+border-radius: 24px;
+background: rgb(255, 255, 255);
+background-color:rgb(255, 255, 255) ;
+border: 2px solid #fff;
+
+}
+.satelite-img{
+    width: 408px;
+    height: 306px;
+  
+
+}
+.satelite-img img{
+    border-radius: 24px;
+    background: url(image);
+
+}
+.launche{
+    width:100%;
+    height: 306px;
+    padding-left: 44px;
+    margin-bottom: 60px;
+}
+.launche h1{
+width: 100%;
+height: 38px;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.launche p{
+    width: 100%;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.lanbtn{
+width: 139px;
+height: 48px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+border: none;
+color: white;
+}
+.lanbtn:hover{
+    background-color: gray;
+}
