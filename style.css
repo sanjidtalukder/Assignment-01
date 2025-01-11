@@ -329,19 +329,19 @@ color: white;
 .donat h1{
     font-size: 32px;
     color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
-text-align: center;
+    font-family: Fira Sans;
+    text-align: center;
 
 }
 .donat p{
     width: 100%;
-color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 
 }
 .boxs{
@@ -510,7 +510,7 @@ text-align: left; */
     }
     .bangladesh hr{
         border: none;
-      border: 1px solid rgba(14, 14, 14, 0.1);;
+      border: 1px solid rgba(14, 14, 14, 0.1);
         
     }
     .footer-img{
@@ -523,7 +523,70 @@ text-align: left; */
         /* text-align: center; */
         align-items: center;
     }
+
+    .table-div{
+        background-color: #fff;
+        padding: 28px;
+
+
+    }
+
+    .option{
+margin: 18px ;
+
+    }
+    .option h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 26px;
+font-weight: 500;
+text-align: left;
+    }
+   .tag{
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(198, 228, 214);
+    /* margin: 5px 5px 0px 5px; */
+    /* padding:5px 8px 2px 5px ; */
+    padding: 7.7px;
+
+   }
+   .tag h5{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 16px;
+/* font-weight: 600; */
+text-align: left;
+   }
+   table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
    
-    
+  }
+  .tdr{
+    text-align: left;
+  }
+  
+  td, th {
+    border: 1px solid rgba(128, 128, 128, 0.164);
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table button{
+    padding: 10px;
+    box-sizing: border-box;
+border: 1px solid rgb(14, 14, 14);
+border-radius: 4px;
+
+background: rgb(198, 228, 214);
+  }
+  table button:hover{
+    background-color: gray;
+    text-align: center;
+  }
     
     
