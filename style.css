@@ -435,7 +435,8 @@ text-align: left;
         background-color: gray;
     }
     .container {
-        padding: 24px; /* This will act as the margin for the background image */
+        padding: 24px; 
+        margin: 18px;/* This will act as the margin for the background image */
         background-color: #fff;
         border-radius: 18px;
         /* background-position: left; */
