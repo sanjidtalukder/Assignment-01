@@ -514,6 +514,7 @@ text-align: left; */
     }
     .footer-img{
         text-align: center;
+        cursor: pointer;
     }
     .footer-img img{
         padding: 6px;
