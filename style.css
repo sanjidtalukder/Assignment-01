@@ -434,4 +434,37 @@ text-align: left;
     .input-container button:hover{
         background-color: gray;
     }
+    .container {
+        padding: 24px; /* This will act as the margin for the background image */
+        background-color: #fff;
+        border-radius: 18px;
+        /* background-position: left; */
+    }
      
+    .ipsum{
+        background-image: url('image/quote-bg.png');
+        background-repeat: no-repeat;
+        background-color: #fff;
+        border-radius: 18px;
+        margin: 8px;
+        padding: 8px;
+    }
+    .ipsum p{
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+    }
+    .ipsum h1{
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+text-align: left;
+    }
+   
+    
+    
+    
