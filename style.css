@@ -4,10 +4,35 @@
     margin: 40px 0px 0px 0px;
     padding: 0;
 } */
+ .navi{
+    display: flex;
+    justify-content: space-between;
+    margin: 18px;
+    padding: 18px;
+ }
+ .navi h1{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 700;
+text-align: left;
+ }
+ .navi button{
+width: 116px;
+height: 52px;
+box-sizing: border-box;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+color: rgb(0, 106, 80);
+font-family: Fira Sans;
+font-size: 18px;
+text-align: center;
+margin-right: 36px;
+
+ }
 #bangla{
-/* position: static; */
 width: 1100px;
-height: 560px;
+height: 460px;
 border-radius: 24px;
 background: rgb(198, 228, 214);
 display: flex;
