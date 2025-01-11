@@ -30,6 +30,9 @@ text-align: center;
 margin-right: 36px;
 
  }
+ .navi button:hover{
+    background-color: gray;
+ }
 #bangla{
 width: 1100px;
 height: 460px;
